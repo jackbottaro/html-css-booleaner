@@ -1,8 +1,5 @@
 /* page setting */
 body {
-  width: 1057px;
-  height: 100px;
-  background-color: #212121;
   margin: 0 auto;
 }
 
@@ -33,7 +30,7 @@ header {
   background-repeat: no-repeat;
   position: absolute;
   top: 40px;
-  margin-left: 10px;
+  margin-left: 230px;
 }
 
 figcaption {
@@ -47,6 +44,8 @@ a {
 /* main setting  */
 .wrap {
   background-color: white;
+  width: 1057px;
+  margin: 0 auto;
 }
 
 h1 {
