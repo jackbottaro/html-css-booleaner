@@ -1,8 +1,23 @@
-header {
+/* page setting */
+body {
   width: 1057px;
   height: 100px;
-  background-color: #4ea0ff;
+  background-color: #212121;
   margin: 0 auto;
+}
+
+.padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* header setting */
+
+header {
+  background-color: #4ea0ff;
+  width: 100%;
+  height: 100px;
+  padding-right: 20px;
 }
 
 .pattern {
@@ -23,14 +38,19 @@ header {
   margin-left: 10px;
 }
 
+figcaption {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main setting  */
 .wrap {
   width: 1057px;
   background-color: white;
   margin: 0 auto;
-}
-
-figcaption {
-  font-size: 12px;
 }
 
 h1 {
@@ -47,20 +67,39 @@ h1 {
   padding: 20px 0px 20px 0px;
 }
 
+/* tabella */
+
 table {
   text-align: left;
   border-collapse: collapse;
+  width: 100%;
+}
+
+.box25 {
+  width: 25%;
+}
+
+.box50 {
+  width: 50%;
 }
 
 thead {
   background-color: #20a9e5;
+  color: white;
 }
 
-.row1 {
+.row_color {
   background-color: #b1e5f2;
 }
 
 /* footer */
+
+h2 {
+  color: gray;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
 h3 {
   position: absolute;
   color: white;
@@ -68,7 +107,7 @@ h3 {
   padding: 10px;
 }
 
+/* impostazioni globali  */
 * {
   margin: 0;
-  padding: 0;
 }
